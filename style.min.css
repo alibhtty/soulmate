@@ -3621,6 +3621,9 @@ body.isDesktop #menu-navigation a:hover {
     right: unset;
     padding: 25px;
   }
+  #logo {
+    margin-top: 16px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .positions-back {
