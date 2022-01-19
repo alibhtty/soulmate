@@ -1,0 +1,8 @@
+www.soulmate-av.com/index.html
+
+
+-----------------------------------------
+Modify:
+("image/webp") -> ("image/jpg")
+("data:image/webp") -> ("data:image/jpg")
+--------------- @alibhtty ---------------
