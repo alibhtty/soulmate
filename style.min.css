@@ -1902,6 +1902,9 @@ a.btn {
   margin: 30px 0 0;
   border: 2px solid #fff;
 }
+.btn{
+  backdrop-filter: blur(1.5px);
+}
 .btn .hover {
   position: absolute;
   top: 0;
@@ -3154,7 +3157,7 @@ table.regular td a {
 #menu-navigation {
   top: 75px;
   right: 50px;
-  width: 250px;
+  width: 250px; /* 250px */
 }
 #menu-navigation .nav-links li {
   display: block;
@@ -3166,12 +3169,14 @@ table.regular td a {
 }
 #menu-navigation .nav-links a {
   display: block;
-  font: 16px/40px D-DIN-Regular, Arial, Verdana, sans-serif;
+  font: 18px/40px D-DIN-Regular, Arial, Verdana, sans-serif; /* 16px */
   font-weight: 400;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   color: #fff;
   text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-bottom: 1pt solid #252525;
 }
 #footer {
@@ -3961,7 +3966,7 @@ body.isDesktop #menu-navigation a:hover {
     display: block;
   }
   #menu-navigation {
-    top: 50px;
+    top: 70px;
   }
   #menu-navigation .nav-links li.primary {
     display: block;
